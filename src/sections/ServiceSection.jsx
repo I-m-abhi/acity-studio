@@ -8,7 +8,7 @@ const ServiceSection = () => {
       <div className="service-list grid grid-three--col">
         {serviceList.map((item) => {
           return (
-            <ServiceCard key={item.id} serviceList={item} />
+            <ServiceCard key={item.id} serviceList={item}  />
           )
         })}
       </div>

@@ -6,7 +6,7 @@ const Vision = () => {
       <div className="container grid grid-three--col">
         {vision.map((item) => {
           return (
-            <div key={item.id} className="vision-box">
+            <div key={item.id} className="vision-box" data-aos="fade-up">
               <h3 className="heading">{item.title}</h3>
               <p>{item.des}</p>
             </div>

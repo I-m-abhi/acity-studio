@@ -110,8 +110,7 @@
 
   & .about-text {
     box-shadow: var(--box-shadow);
-    background: var(--bg-color);
-    color: var(--gray-color);
+    background: var(--gray-color);
     padding: 5rem 6.4rem;
     position: absolute;
     left: 45rem;

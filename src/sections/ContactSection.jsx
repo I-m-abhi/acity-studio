@@ -38,7 +38,7 @@ const ContactSection = () => {
       <div className="container">
         <h2 className="heading">Get in touch with us. We are always here to help you...</h2>
         <div className="grid grid-two--col">
-          <div className="contact-details">
+          <div className="contact-details" data-aos="fade-up">
             <div className="details">
               <p><IoLocation /></p>
               <p> Python Decor & Associates <br />
@@ -57,7 +57,7 @@ const ContactSection = () => {
             </div>
             <SocialMedia />
           </div>
-          <div className="contact-form">
+          <div className="contact-form" data-aos="fade-up">
             <form action="" onSubmit={handleSubmit}>
               <div className="input-field">
                 <label htmlFor="name">Name*</label><br />

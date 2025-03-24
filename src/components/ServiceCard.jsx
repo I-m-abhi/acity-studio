@@ -2,10 +2,10 @@ import { Link, useLocation } from "react-router";
 
 const ServiceCard = ({ serviceList }) => {
   const location = useLocation();
-  const { name, details, icon: Icon } = serviceList;
+  const { id, name, details, icon: Icon } = serviceList;
 
   return (
-    <div className='service-item'>
+    <div data-aos="fade-up" data-aos-delay={`${id * 200}`} className='service-item'>
       {<Icon className="service-icon" />}
       <h3>{name}</h3>
       <p>{details}</p>
