@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="project-list grid grid-three--col">
           {projectVideo.map((data, id) => {
             return (
-              <div key={id} className="project-item" data-aos="fade-up" data-aos-delay={`${id * 200}`}>
+              <div key={id} className="project-item" data-aos="fade-up" data-aos-delay={`${id * 100}`}>
                 <video className='video' autoPlay muted loop>
                   <source src={data} />
                 </video>
@@ -24,7 +24,7 @@ const Projects = () => {
         <div className="project-list grid grid-two--col">
           {projectImg.map((data, id) => {
             return (
-              <div key={id} className="project-item" data-aos="fade-up" data-aos-delay={`${id * 200}`}>
+              <div key={id} className="project-item" data-aos="fade-up" data-aos-delay={`${id * 100}`}>
                 <img className='pro-img' src={data} alt="Projects are showing" />
               </div>
             )

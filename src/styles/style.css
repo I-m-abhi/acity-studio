@@ -132,7 +132,7 @@
   gap: 2.4rem;
 
   & .service-item {
-    padding: 3rem 4.4rem;
+    padding: 4rem 4.4rem;
     border-radius: 1rem;
     background-color: #f1ede8;
     transition: all .8s;
@@ -165,9 +165,11 @@
 /* Counter-section */
 .counter-section {
   position: relative;
-  background: url('../assets/count-bg.webp') no-repeat center center/cover;
+  background-image: url('../assets/count-bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  color: white;
+  color: var(--white-color);
 
   & .overlay {
     background: rgba(0, 0, 0, 0.6);
@@ -233,7 +235,6 @@
   }
 }
 
-
 /* Contact-Section */
 .contact-section {
   background-image: url('../assets/bg-map.png');
@@ -251,11 +252,17 @@
     align-items: center;
     gap: 5.4rem;
   }
+
+  & .contact-details {
+    padding: 2.4rem 15rem 2.4rem 2.4rem;
+  }
+  & .contact-form {
+    padding: 2.4rem;
+  }
 }
 
 .contact-section .contact-details,
 .contact-section .contact-form {
-  padding: 2.4rem;
   background-color: var(--body-bg-color);
   box-shadow: var(--box-shadow);
   border-radius: 1rem;
@@ -315,6 +322,7 @@
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  padding: 1.2rem 2.4rem 8.4rem 2.4rem;
 
   & h2 {
     text-align: left;

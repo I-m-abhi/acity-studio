@@ -41,19 +41,19 @@ const ContactSection = () => {
           <div className="contact-details" data-aos="fade-up">
             <div className="details">
               <p><IoLocation /></p>
-              <p> Python Decor & Associates <br />
+              <p>Acity Studio <br />
                 C-2207, Coco County <br />
                 Greater Noida, UP, 201301 <br />
-                ( Visit by Appointment Only )
+                (Visit by Appointment Only)
               </p>
             </div>
             <div className="details">
               <p><MdMarkEmailUnread /></p>
-              <p> pythondecorassociates@gmail.com</p>
+              <p>core@acitystudio.in</p>
             </div>
             <div className="details">
               <p><FaPhone /></p>
-              <p> +91 8271197098</p>
+              <p> +91 9205001994</p>
             </div>
             <SocialMedia />
           </div>
@@ -96,12 +96,13 @@ const ContactSection = () => {
                 />
               </div>
               <div className="input-field">
-                <label htmlFor="message">Property Details*</label><br />
+                <label htmlFor="message">Message*</label><br />
                 <textarea
                   onChange={handleInputChange}
                   value={formData.message}
                   name="message"
                   id="message"
+                  placeholder="Start writing your query..."
                   required>
                 </textarea>
               </div>

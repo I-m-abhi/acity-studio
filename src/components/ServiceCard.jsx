@@ -5,7 +5,7 @@ const ServiceCard = ({ serviceList }) => {
   const { id, name, details, icon: Icon } = serviceList;
 
   return (
-    <div data-aos="fade-up" data-aos-delay={`${id * 200}`} className='service-item'>
+    <div data-aos="fade-up" data-aos-delay={`${id * 100}`} className='service-item'>
       {<Icon className="service-icon" />}
       <h3>{name}</h3>
       <p>{details}</p>

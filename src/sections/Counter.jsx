@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import CountUp from "react-countup";
 
 const Counter = () => {
@@ -8,7 +7,6 @@ const Counter = () => {
     { id: 3, num: "5", content: "Ongoing Projects" },
     { id: 4, num: "200", content: "Projects Done" },
   ];
-  const countUpRef = useRef();
 
   return (
     <section className="counter-section">
@@ -20,12 +18,12 @@ const Counter = () => {
             <p>Years of transforming places and creating plans that improves life</p>
           </div>
           <div className="grid grid-four--col">
-            {counterData.map((data) => (
-              <div key={data.id} className="counter-card">
-                <CountUp start={0} end={parseInt(data.num)} enableScrollSpy={true}>
-                  {({ countUpRef }) => <p className="heading" ref={countUpRef}></p>}
-                </CountUp>
-                <p className="counter-content">{data.content}</p>
+            {counterData.map(({ id, num, content }) => (
+              <div key={id} className="counter-card">
+                <p className="heading">
+                  <CountUp start={0} end={num} enableScrollSpy={true} />+
+                </p>
+                <p className="counter-content">{content}</p>
               </div>
             ))}
           </div>

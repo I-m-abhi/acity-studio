@@ -37,6 +37,12 @@ a {
   color: var(--gray-color);
 }
 
+/* Chrome, Safari, Edge, Opera --- Remove input number default arrow*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -53,7 +59,7 @@ h4 {
   font-size: 1.5rem;
 }
 
-p {
+p,label {
   line-height: 2.5rem;
   font-size: 1.3rem;
   font-weight: 500;

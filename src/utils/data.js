@@ -4,10 +4,10 @@ import hero3 from "../assets/hero-slider-3.jpg";
 import hero4 from "../assets/hero-slider-4.jpg";
 
 import Icon1 from '../assets/Icon/icon-1.svg?react';
-import Icon2 from '../assets/Icon/icon-2.svg?react';
+import Icon2 from '../assets/Icon/icon-5.svg?react';
 import Icon3 from '../assets/Icon/icon-3.svg?react';
-import Icon4 from '../assets/Icon/icon-4.svg?react';
-import Icon5 from '../assets/Icon/icon-5.svg?react';
+import Icon4 from '../assets/Icon/icon-2.svg?react';
+import Icon5 from '../assets/Icon/icon-4.svg?react';
 import Icon6 from '../assets/Icon/icon-6.svg?react';
 
 
@@ -56,32 +56,50 @@ export const serviceList = [
   {
     id: 2,
     icon: Icon2,
-    name: 'ARCHITECTURE',
-    details: 'Provides an opportunity to not only add beauty and structure to the world, but to profoundly improve the conditions for people.',
-  },
-  {
-    id: 3,
-    icon: Icon3,
-    name: 'ARCHITECTURE',
-    details: 'Provides an opportunity to not only add beauty and structure to the world, but to profoundly improve the conditions for people.',
-  },
-  {
-    id: 4,
-    icon: Icon4,
-    name: 'ARCHITECTURE',
-    details: 'Provides an opportunity to not only add beauty and structure to the world, but to profoundly improve the conditions for people.',
-  },
-  {
-    id: 5,
-    icon: Icon5,
     name: 'INTERIOR',
     details: 'We can cater to various sectors, including residential, commercial, hospitality, and healthcare. may specialize in specific styles, such as modern, traditional, or eclectic.',
   },
   {
-    id: 6,
-    icon: Icon6,
+    id: 3,
+    icon: Icon3,
     name: 'CONSTRUCTION',
     details: 'Across our firm, we employ a diverse range of professionals with a successful record delivering high-quality projects.',
+  },
+  {
+    id: 4,
+    icon: Icon4,
+    name: 'CONSULTING & PLANNING',
+    details: 'Our team’s analytical tools and user engagement activities inspire creativity and collaboration that enhance any project.',
+  },
+  {
+    id: 5,
+    icon: Icon5,
+    name: 'Landscape & Designing',
+    details: 'Design stunning outdoor spaces, including terraces, balconies, and gardens, to bring nature into everyday living.',
+  },
+  {
+    id: 6,
+    icon: Icon6,
+    name: 'FACILITY OPTIMIZATION',
+    details: 'We can efficiently create a living dataset of your assets and integrate into your computerized maintenance management.',
+  },
+  {
+    id: 7,
+    icon: Icon6,
+    name: 'Renovation & Remodeling',
+    details: 'Revamp and modernize existing spaces with smart upgrades, ensuring improved aesthetics and functionality.',
+  },
+  {
+    id: 8,
+    icon: Icon5,
+    name: 'ENGINEERING',
+    details: 'We create innovative engineering systems that help organizations achieve bold business and performance goals.',
+  },
+  {
+    id: 9,
+    icon: Icon2,
+    name: 'Commercial Interior Design',
+    details: 'Enhance workspaces, retail stores, and hospitality areas with innovative designs that boost productivity and customer experience.',
   },
 ];
 
