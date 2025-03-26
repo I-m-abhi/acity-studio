@@ -108,3 +108,10 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .contact-section {
+    & .contact-details {
+      padding: 2.4rem 6.4rem 2.4rem 2.4rem;
+    }
+  }
+}
