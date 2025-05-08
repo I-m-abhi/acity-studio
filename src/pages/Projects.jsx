@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="project-page">
       <PageTitle pageTitle="Projects" />
       <section className="project-section container">
-        <h2 className="heading">Structures and Designs created by acity-studio and teams</h2>
+        <h2 className="heading">***This page on under maintainance***</h2>
         <div className="project-list grid grid-three--col">
           {projectVideo.map((data, id) => {
             return (
@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="project-section container">
-        <h2 className="heading">Structures and Designs created by acity-studio and teams</h2>
+        <h2 className="heading">***Project details - Coming soon***</h2>
         <div className="project-list grid grid-two--col">
           {projectImg.map((data, id) => {
             return (

@@ -1,6 +1,7 @@
 import HeroSlider from "../components/HeroSlider";
 import About from "../sections/About";
-import about from "../assets/about.webp";
+import about from "../assets/about-1.jpg";
+// import about2 from "../assets/hero-2.jpg";
 import ServiceSection from "../sections/ServiceSection";
 import Counter from "../sections/Counter";
 
@@ -9,9 +10,9 @@ const Home = ()=> {
     <div className="home-page">
       <HeroSlider />
       <About
-        h2={"FROM UNDULATING SKYSCRAPERS TO MARVELOUS INTERIOR DESIGNS"}
-        p1={"The core purpose of this firm since then has been to ‘Inspire Creativity’! The Team Acity Sudio has evolved into a dedicated team of professionals committed to design excellence and offering comprehensive service in the field of Architecture, Interior Designing and Project Consultation."}
-        p2={"At Acitystudio, the Architects & the Interior Designers work in close collaboration with other experts including Engineers, Graphic Designers, Artists, Sculptures, Landscape Designers, Lighting and Acoustic Specialists."}
+        h2={'"Layered in Style: Who We Are"'}
+        p1={"At Decowall Studio, we believe walls are more than just boundaries—they’re canvases for creativity. Based in the heart of Delhi NCR and serving Noida and Greater Noida, we specialize in transforming ordinary spaces into extraordinary interiors with our curated collection of premium wallpapers."}
+        p2={"With a passion for design and an eye for detail, Decowall Studio offers end-to-end wallpaper solutions—from consultation and selection to flawless installation. Our small but dedicated team ensures every project is handled with professionalism, creativity, and care."}
         imgPath={about}
       />
       <Counter />

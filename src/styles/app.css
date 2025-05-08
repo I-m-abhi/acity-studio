@@ -68,6 +68,11 @@ p,label {
   opacity: .7;
 }
 
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
 .logo-img {
   width: 20rem;
 }
@@ -116,7 +121,6 @@ p,label {
 
   & ul {
     display: flex;
-    /* justify-content: flex-start; */
     align-items: center;
     gap: 1.4rem;
 

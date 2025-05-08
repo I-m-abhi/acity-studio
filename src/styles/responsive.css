@@ -31,18 +31,6 @@
   .slide-content {
     width: 100%;
   }
-
-  .founder-section {
-    .founder {
-      flex-direction: column;
-
-      & .founderImg {
-        & .founder-img {
-          width: 100%;
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {

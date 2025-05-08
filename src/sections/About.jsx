@@ -34,12 +34,12 @@ const About = ({ h2, p1, p2, imgPath }) => {
       <h2 className="heading">{h2}</h2>
       <div className="home-about">
         <div className="about-img">
-          <img src={imgPath} style={imgStyle} alt="Acity Studio - An Architecture Firm" />
+          <img src={imgPath} style={imgStyle} alt="Decowall Studio - Complete wallpaper solution" />
         </div>
         <div className="about-text">
           <p>{p1}</p>
           <p>{p2}</p>
-          {location.pathname === "/" ? <Link to='/about-us'><button className="btn">More About Acity</button></Link> : ""}
+          {location.pathname === "/" ? <Link to='/about-us'><button className="btn">Know more</button></Link> : ""}
         </div>
       </div>
     </section>

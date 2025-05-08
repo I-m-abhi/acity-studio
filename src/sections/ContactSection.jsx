@@ -36,24 +36,23 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="container">
-        <h2 className="heading">Get in touch with us. We are always here to help you...</h2>
+        <h2 className="heading">"Your Dream Walls Are One Message Away"</h2>
         <div className="grid grid-two--col">
           <div className="contact-details" data-aos="fade-up">
             <div className="details">
               <p><IoLocation /></p>
-              <p>Acity Studio <br />
-                C-2207, Coco County <br />
-                Greater Noida, UP, 201301 <br />
-                (Visit by Appointment Only)
+              <p>LG 22H, gaur city Center, Greater Noida <br />
+                W Rd, Gaur City 1, Sector 4, Noida, <br />
+                Ghaziabad, Uttar Pradesh 201301
               </p>
             </div>
             <div className="details">
               <p><MdMarkEmailUnread /></p>
-              <p>core@acitystudio.in</p>
+              <p>decowallstudio@gmail.com</p>
             </div>
             <div className="details">
               <p><FaPhone /></p>
-              <p> +91 9205001994</p>
+              <p> +91 9311346811</p>
             </div>
             <SocialMedia />
           </div>

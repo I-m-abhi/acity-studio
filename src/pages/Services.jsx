@@ -8,9 +8,9 @@ const Services = ()=> {
     <div className="services-page">
       <PageTitle pageTitle="Services" />
       <About
-        h2={"Creative Solutions by Professional Designers"}
-        p1={"Looking for a luxurious and high-end interior designer in Noida or Delhi NCR? Look no further! At High Creation Interior, our team of experienced and talented designers is here to help you create a space that reflects your unique style and taste."}
-        p2={"As the best interior designer in Noida and Delhi NCR, we specialize in luxury interior design, with a focus on creating stunning spaces that are both functional and beautiful. From selecting the perfect color palette to choosing the right furniture and accessories, we take care of every detail to ensure that your space is truly exceptional."}
+        h2={`"Bringing Walls to Life, Beautifully"`}
+        p1={"At Decowall Studio, we specialize in premium wallpaper solutions that redefine interiors with texture, pattern, and style. Whether you're looking for a bold feature wall or a subtle backdrop, we offer a diverse range of wallpaper designs—from classic florals and textured abstracts to modern minimalistic prints—sourced and installed with precision."}
+        p2={"Our services go beyond wallpaper. We provide personalized design consultation, expert measurement, and professional wallpaper installation to ensure flawless results. Whether you're updating a living room, office, retail space, or an entire home, we tailor every solution to your space and vision. We proudly serve residential and commercial clients across Delhi NCR, Noida, and Greater Noida with reliability, creativity, and craftsmanship."}
         imgPath={services}
       />
       <ServiceSection />

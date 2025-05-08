@@ -1,105 +1,120 @@
-import hero1 from "../assets/hero-slider-1.jpg";
+import hero1 from "../assets/slider-1.png";
 import hero2 from "../assets/hero-slider-2.jpg";
 import hero3 from "../assets/hero-slider-3.jpg";
-import hero4 from "../assets/hero-slider-4.jpg";
 
-import Icon1 from '../assets/Icon/icon-1.svg?react';
-import Icon2 from '../assets/Icon/icon-5.svg?react';
-import Icon3 from '../assets/Icon/icon-3.svg?react';
-import Icon4 from '../assets/Icon/icon-2.svg?react';
-import Icon5 from '../assets/Icon/icon-4.svg?react';
-import Icon6 from '../assets/Icon/icon-6.svg?react';
+import service1 from "../assets/service-list/artificial_garden.webp";
+import service2 from "../assets/service-list/blinds.webp";
+import service3 from "../assets/service-list/customized_blinds.webp";
+import service4 from "../assets/service-list/customized.webp";
+import service5 from "../assets/service-list/fabric.webp";
+import service6 from "../assets/service-list/glass_flims.webp";
+import service7 from "../assets/service-list/grass.webp";
+import service8 from "../assets/service-list/louvers.webp";
+import service9 from "../assets/service-list/pvc_flooring.webp";
+import service10 from "../assets/service-list/pvc_panel.webp";
+import service11 from "../assets/service-list/wallpaper.avif";
+import service12 from "../assets/service-list/wooden.webp";
 
 
 export const heroSlides = [
   {
-    id: "living-room",
-    title: "Modern Living Room",
+    id: 1,
+    title: "Transform Your Walls Into Art",
     image: hero1,
     alt: "A stylish modern living room with sleek furniture and ambient lighting",
     description:
-      "Step into a contemporary living space designed for both relaxation and sophistication. With elegant furnishings, subtle lighting, and a seamless blend of textures, this modern living room creates a cozy yet luxurious ambiance.",
+      "Elevate your interior with wallpaper that blends design and creativity. Turn any blank wall into a stunning canvas of color, pattern, and personality.",
   },
   {
-    id: "luxury-bedroom",
-    title: "Luxurious Bedroom",
+    id: 2,
+    title: "Where Walls Tell a Story",
     image: hero2,
     alt: "A lavish bedroom with a plush bed, ambient lighting, and elegant decor",
     description:
-      "Indulge in the opulence of a perfectly designed bedroom, where comfort meets elegance. Featuring soft lighting, premium bedding, and a serene color palette, this space provides the ultimate retreat for rest and relaxation.",
+      "Every wallpaper design speaks to your journey. From nature-inspired themes to bold geometry, create spaces that reflect your story, style, and imagination.",
   },
   {
-    id: "workspaces",
-    title: "Functional Workspaces",
+    id: 3,
+    title: "Your Wall. Your Style",
     image: hero3,
     alt: "A well-organized home office with ergonomic furniture and ample lighting",
     description:
-      "Boost your productivity with a workspace that blends aesthetics with efficiency. Designed with ergonomic seating, smart storage solutions, and ample lighting, this functional workspace ensures maximum focus and comfort.",
-  },
-  {
-    id: "modular-kitchen",
-    title: "Modular Kitchen's Concept",
-    image: hero4,
-    alt: "A sleek modular kitchen with modern cabinets, smart storage, and high-end finishes",
-    description:
-      "Discover the convenience of a modular kitchen, where smart design meets contemporary aesthetics. With optimized storage, premium finishes, and a well-planned layout, this space enhances cooking experiences while maintaining a stylish appeal.",
+      "Whether subtle or striking, choose wallpaper that matches your vision. Curated collections let you personalize every wall to reflect your unique taste and lifestyle.",
   },
 ];
 
 export const serviceList = [
   {
     id: 1,
-    icon: Icon1,
-    name: 'ARCHITECTURE',
-    details: 'Provides an opportunity to not only add beauty and structure to the world, but to profoundly improve the conditions for people.',
+    image: service1,
+    name: 'Artificial Garden',
+    details: 'Enhance any space with low-maintenance artificial greenery that adds lasting freshness, vibrancy, and charm without the need for sunlight or watering.',
   },
   {
     id: 2,
-    icon: Icon2,
-    name: 'INTERIOR',
-    details: 'We can cater to various sectors, including residential, commercial, hospitality, and healthcare. may specialize in specific styles, such as modern, traditional, or eclectic.',
+    image: service2,
+    name: 'Blinds',
+    details: 'Stylish and functional window blinds that offer privacy, light control, and a modern aesthetic for both home and office interiors.',
   },
   {
     id: 3,
-    icon: Icon3,
-    name: 'CONSTRUCTION',
-    details: 'Across our firm, we employ a diverse range of professionals with a successful record delivering high-quality projects.',
+    image: service3,
+    name: 'Customized Blinds',
+    details: 'Tailored blinds designed to match your space and style perfectly, combining beauty and practicality with high-quality materials and finishes.',
   },
   {
     id: 4,
-    icon: Icon4,
-    name: 'CONSULTING & PLANNING',
-    details: 'Our team’s analytical tools and user engagement activities inspire creativity and collaboration that enhance any project.',
+    image: service4,
+    name: 'Customized WallPaper',
+    details: 'Bring your walls to life with personalized wallpaper designs that reflect your personality, theme, and unique vision for any space.',
   },
   {
     id: 5,
-    icon: Icon5,
-    name: 'Landscape & Designing',
-    details: 'Design stunning outdoor spaces, including terraces, balconies, and gardens, to bring nature into everyday living.',
+    image: service5,
+    name: 'Fabric WallPaper',
+    details: 'Add elegance and texture to your interiors with fabric wallpapers that offer a soft, luxurious look and superior durability.',
   },
   {
     id: 6,
-    icon: Icon6,
-    name: 'FACILITY OPTIMIZATION',
-    details: 'We can efficiently create a living dataset of your assets and integrate into your computerized maintenance management.',
+    image: service6,
+    name: 'Glass Flims',
+    details: 'Decorative and protective glass films that enhance privacy, reduce glare, and add style to windows and glass partitions.',
   },
   {
     id: 7,
-    icon: Icon6,
-    name: 'Renovation & Remodeling',
-    details: 'Revamp and modernize existing spaces with smart upgrades, ensuring improved aesthetics and functionality.',
+    image: service7,
+    name: 'Artificial Grass',
+    details: 'Perfect for lawns, balconies, and terraces, our artificial grass offers a lush, green appearance all year round with no maintenance.',
   },
   {
     id: 8,
-    icon: Icon5,
-    name: 'ENGINEERING',
-    details: 'We create innovative engineering systems that help organizations achieve bold business and performance goals.',
+    image: service8,
+    name: 'Louvers',
+    details: 'Modern louver panels for ventilation and aesthetics, offering functional design with sleek lines for walls, facades, or partitions.',
   },
   {
     id: 9,
-    icon: Icon2,
-    name: 'Commercial Interior Design',
-    details: 'Enhance workspaces, retail stores, and hospitality areas with innovative designs that boost productivity and customer experience.',
+    image: service9,
+    name: 'PVC Flooring',
+    details: 'Durable, water-resistant, and stylish, PVC flooring is an excellent choice for both residential and commercial spaces with easy maintenance.',
+  },
+  {
+    id: 10,
+    image: service10,
+    name: 'PVC Panel',
+    details: 'Lightweight and versatile, PVC panels are ideal for walls and ceilings, offering quick installation, moisture resistance, and aesthetic appeal.',
+  },
+  {
+    id: 11,
+    image: service11,
+    name: 'Wallpaper',
+    details: 'Explore a wide range of designs and textures to instantly upgrade your space with easy-to-install, high-impact wallpaper solutions.',
+  },
+  {
+    id: 12,
+    image: service12,
+    name: 'Wooden Flooring',
+    details: 'Add warmth and timeless charm to your interiors with premium wooden flooring, available in various finishes for a natural and elegant look.',
   },
 ];
 
@@ -141,41 +156,5 @@ export const vision = [
 ];
 
 // Project-Page
-import i1 from '../assets/projects/1.jpg';
-import i2 from '../assets/projects/2.jpg';
-import i3 from '../assets/projects/3.jpg';
-import i4 from '../assets/projects/4.jpg';
-import i5 from '../assets/projects/5.jpg';
-import i6 from '../assets/projects/6.jpg';
-import i7 from '../assets/projects/7.jpg';
-import i8 from '../assets/projects/8.jpg';
-import i9 from '../assets/projects/9.jpg';
-import i10 from '../assets/projects/10.jpg';
-import i11 from '../assets/projects/11.jpg';
-import i12 from '../assets/projects/12.jpg';
-import i13 from '../assets/projects/13.jpg';
-import i14 from '../assets/projects/14.jpg';
-import i15 from '../assets/projects/15.jpg';
-import i16 from '../assets/projects/16.jpg';
-import i17 from '../assets/projects/17.jpg';
-import i18 from '../assets/projects/18.jpg';
-import i19 from '../assets/projects/19.jpg';
-import i20 from '../assets/projects/20.jpg';
-import i21 from '../assets/projects/21.jpg';
-import i22 from '../assets/projects/22.jpg';
-import i23 from '../assets/projects/23.jpg';
-import i24 from '../assets/projects/24.jpg';
-import i25 from '../assets/projects/25.jpg';
-import i26 from '../assets/projects/26.jpg';
-import i27 from '../assets/projects/27.jpg';
-import i28 from '../assets/projects/28.jpg';
-
-import vid1 from '../assets/projects/Untitled design (1).mp4';
-import vid2 from '../assets/projects/Untitled design (2).mp4';
-import vid3 from '../assets/projects/Untitled design (3).mp4';
-import vid4 from '../assets/projects/Untitled design (4).mp4';
-import vid7 from '../assets/projects/Untitled design (7).mp4';
-import vid8 from '../assets/projects/Untitled design (8).mp4';
-
-export const projectVideo = [vid1, vid2, vid3, vid4, vid7, vid8];
-export const projectImg = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20, i21, i22, i23, i24, i25, i26, i27, i28];
+export const projectVideo = [];
+export const projectImg = [];

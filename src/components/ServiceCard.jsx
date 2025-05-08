@@ -2,15 +2,15 @@ import { Link, useLocation } from "react-router";
 
 const ServiceCard = ({ serviceList }) => {
   const location = useLocation();
-  const { id, name, details, icon: Icon } = serviceList;
+  const { id, name, details, image } = serviceList;
 
   return (
     <div data-aos="fade-up" data-aos-delay={`${id * 100}`} className='service-item'>
-      {<Icon className="service-icon" />}
+      <img className="service-img" src={image} alt="" />
       <h3>{name}</h3>
       <p>{details}</p>
       {
-        location.pathname === "/" ? <Link to="/services"><button className="btn">See more services...</button></Link> : ""
+        location.pathname === "/" ? <Link to="/services"><button className="btn">Read more...</button></Link> : ""
       }
     </div>
   )

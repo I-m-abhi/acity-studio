@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/logo-ff-bg.webp";
+import logo from "../assets/decowall_logo_cropped.png";
 import { Link } from "react-router";
 import { FiX } from "react-icons/fi";
 import { CiMenuBurger } from "react-icons/ci";

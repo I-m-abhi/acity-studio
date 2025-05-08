@@ -31,8 +31,7 @@ const HeroSlider = () => {
           style={{ backgroundImage: `url(${slide.image})` }}
         >
           <div className="slide-content">
-            <h1 className="heading">Dreams made into Reality</h1>
-            <h2>{slide.title}</h2>
+            <h2 className="heading">{slide.title}</h2>
             <p>{slide.description}</p>
             <Link to="/services"><button className="btn">Explore Services</button></Link>
           </div>
