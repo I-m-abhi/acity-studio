@@ -7,7 +7,7 @@ import about2 from "../assets/about-2.webp";
 const AboutUs = () => {
   return (
     <div className="about-page">
-      <PageTitle pageTitle="About us" />
+      <PageTitle pageTitle="Layered in Style: Who We Are" />
       <About
         h2={'"Layered in Style: Who We Are"'}
         p1={"At Decowall Studio, we believe walls are more than just boundaries—they’re canvases for creativity. Based in the heart of Delhi NCR and serving Noida and Greater Noida, we specialize in transforming ordinary spaces into extraordinary interiors with our curated collection of premium wallpapers."}

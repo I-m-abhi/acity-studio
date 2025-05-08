@@ -4,7 +4,7 @@ import { projectImg, projectVideo } from "../utils/data";
 const Projects = () => {
   return (
     <div className="project-page">
-      <PageTitle pageTitle="Projects" />
+      <PageTitle pageTitle="Walls That Tell Our Story" />
       <section className="project-section container">
         <h2 className="heading">***This page on under maintainance***</h2>
         <div className="project-list grid grid-three--col">

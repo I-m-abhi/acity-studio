@@ -1,7 +1,6 @@
 import HeroSlider from "../components/HeroSlider";
 import About from "../sections/About";
-import about from "../assets/about-1.jpg";
-// import about2 from "../assets/hero-2.jpg";
+import about from "../assets/slider-1.jpg";
 import ServiceSection from "../sections/ServiceSection";
 import Counter from "../sections/Counter";
 

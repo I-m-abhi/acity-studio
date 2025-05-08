@@ -1,6 +1,7 @@
-import hero1 from "../assets/slider-1.png";
-import hero2 from "../assets/hero-slider-2.jpg";
-import hero3 from "../assets/hero-slider-3.jpg";
+import hero1 from "../assets/slider-1.jpg";
+import hero2 from "../assets/slider-2.jpg";
+import hero3 from "../assets/slider-3.jpg";
+import hero4 from "../assets/slider-4.jpg";
 
 import service1 from "../assets/service-list/artificial_garden.webp";
 import service2 from "../assets/service-list/blinds.webp";
@@ -37,6 +38,14 @@ export const heroSlides = [
     id: 3,
     title: "Your Wall. Your Style",
     image: hero3,
+    alt: "A well-organized home office with ergonomic furniture and ample lighting",
+    description:
+      "Whether subtle or striking, choose wallpaper that matches your vision. Curated collections let you personalize every wall to reflect your unique taste and lifestyle.",
+  },
+  {
+    id: 4,
+    title: "Your Wall. Your Style",
+    image: hero4,
     alt: "A well-organized home office with ergonomic furniture and ample lighting",
     description:
       "Whether subtle or striking, choose wallpaper that matches your vision. Curated collections let you personalize every wall to reflect your unique taste and lifestyle.",
